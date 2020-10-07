@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: slategray;
+}
+
+h1{
+    padding-top: 5%;
+    margin-bottom: -3%;
+    color:wheat;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    margin-top: 2%;
+    font-size: 1rem;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+#textbox{
+    margin:auto;
+    margin-top: 5%;
+    border: 1px solid;
+    max-width: 33%;
+    background-color: whitesmoke;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.2rem;
+}

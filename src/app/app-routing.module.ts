@@ -1,8 +1,11 @@
+import { GenerateComponent } from './components/generate/generate.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:"", component:GenerateComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
